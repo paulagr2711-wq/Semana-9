@@ -1,0 +1,10 @@
+Al ejecutar el comando "node server.js", ocurre lo siguiente:
+
+1. Node.js lee el archivo e inicia la aplicación web utilizando el framework Express.
+2. En la terminal de comandos aparece el mensaje definido en el código: "El servidor ha iniciado de forma exitosa en el puerto 3000", lo que indica que está listo para recibir peticiones.
+3. Cuando visitas la ruta /estado en el navegador (http://localhost:3000/estado), el servidor procesa esa solicitud GET y devuelve como respuesta un objeto JSON con la información solicitada:
+
+{
+  "estado": "Servidor operativo",
+  "servicio": "API de la comunidad"
+}
